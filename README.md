@@ -1,6 +1,6 @@
 # Address Book
 
-#### A program that allows users to input their contact information.
+#### A program that outputs a specific message based on users input as outlined in specifications section below.
 
 #### By **Brittany Thirtyacre**
 
