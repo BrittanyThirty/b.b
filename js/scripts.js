@@ -1,57 +1,51 @@
-function myFunction(input){
-  for (var i=0; i < input.length; i++){
-    if (input[i]=="0"){
-      return;
-    }
-  }
 
-}
-
-
-
-
-
-
-
-
-
+//business
 
 $(document).ready(function() {
   $("form#words").submit(function(event)
     event.preventDefault();
 }
 
+//UI
+function beepBoop(string) {
+var i;
+var fib = [];
 
+fib[0] = 0;
+fib[1] = 1;
+for (i=2; i<=10; i
 
-
-
-
-// $("form#stress_survey").submit(function(event){
-//   event.preventDefault();
-//   var stress = 0;
-//   var health = 0;
-//   var methods = 0;
-//
-//   $("input:checkbox[name=stress-warnings]:checked").each(function() {
-//     stress += 1;
-//   });
-//   $("input:checkbox[name=health-symptoms]:checked").each(function() {
-//     health += 1;
-//   });
-//   $("input:checkbox[name=coping-methods]:checked").each(function()  {
-//     methods += 1;
-//   });
-//   console.log (stress);
-//   if ((stress + health) >= 5) {
-//     if (methods >= 3) {
-//       $('#good-job').toggle();
-//     } else {
-//       $('#stress-advice').toggle();
-//     }
+//   if (vowels.includes(string.charAt(0))) {
+//     return splice += "way";// see splice;
 //   } else {
-//       $('#no-worries').toggle();
+//     for(var i = 0; i < string.length; i++){
+//       if (!vowels.includes(string[i])) {
+//         lettersArray.push(lettersArray.shift());
+//       } else {
+//         lettersArray.push("ay");
+//         return lettersArray.join("");
+//         // alert(typeof(result));
+//       }
+//     }
+// }
+//
+//
+//   for (var i=0; i < arr.length; i++){
+//     if (input[i]===0]{
+//       arr[i] = "a";
+//     } else {
+//       arr[i] = "e";
+//     }
+//       return;
+//     }
 //   }
-// });
-// });
+//
+// }
+
+
+
+
+
+
 //
 //
