@@ -1,34 +1,31 @@
-
-//business
-
-$(document).ready(function() {
-  $("form#words").submit(function(event)
-    event.preventDefault();
+var f = newFib();
+var fibonacciSequence = "";
+for (var i = 0; i <= 4000; i++) {
+    fibonacciSequence += fib.loop(i) + " ";
 }
 
-//UI
-function beepBoop(string) {
-var i;
-var fib = [];
+function Fibonacci() {
+  this.looping = function() {
+    var a = 0, b =1, f =1;
+    for(var i = 2; i <=n; i++) {
+        f = a + b;
+        a = b;
+        b = f;
+    }
+    return f;
+  }
+});
 
-fib[0] = 0;
-fib[1] = 1;
-for (i=2; i<=10; i
 
-//   if (vowels.includes(string.charAt(0))) {
-//     return splice += "way";// see splice;
-//   } else {
-//     for(var i = 0; i < string.length; i++){
-//       if (!vowels.includes(string[i])) {
-//         lettersArray.push(lettersArray.shift());
-//       } else {
-//         lettersArray.push("ay");
-//         return lettersArray.join("");
-//         // alert(typeof(result));
-//       }
-//     }
-// }
+
+
+
+// function beepBoop(string) {
+// var i;
+// var fib = [];
 //
+// fib[0] = 0;
+// fib[1] = 1;
 //
 //   for (var i=0; i < arr.length; i++){
 //     if (input[i]===0]{
@@ -46,6 +43,9 @@ for (i=2; i<=10; i
 
 
 
+//business
 
-//
-//
+$(document).ready(function() {
+  $("form#words").submit(function(event)
+    event.preventDefault();
+}

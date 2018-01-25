@@ -1,0 +1,16 @@
+body {
+  font-size: 18px;
+  background-image:
+  background-position: left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+.container {
+  background-color:
+  text-align: center;
+  float: center;
+  border: 6px solid black;
+}
