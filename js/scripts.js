@@ -1,49 +1,20 @@
-var f = newFib();
-var fibonacciSequence = "";
-for (var i = 0; i <= 4000; i++) {
-    fibonacciSequence += fib.loop(i) + " ";
+function beepBoop(enterNum) {
 }
-
-function Fibonacci() {
-  this.looping = function() {
-    var a = 0, b =1, f =1;
-    for(var i = 2; i <=n; i++) {
-        f = a + b;
-        a = b;
-        b = f;
-    }
-    return f;
+  for(var i = 0; i < enterNum; i++) {
+    if (enterNum.includes(1)) {
+      console.log("Beep");
+    } else if (enterNum.includes(0)){
+      console.log("Boop");
+    } else if (enterNum % 3===0) {
+      console.log("I'm sorry Dave, 'fraid I can't do that!");
+    } else {
+      alert("You don't need an alert here per last code review.")
+    } return result;
   }
 });
+var enterNum;
+var returnArr = [];
 
-
-
-
-
-// function beepBoop(string) {
-// var i;
-// var fib = [];
-//
-// fib[0] = 0;
-// fib[1] = 1;
-//
-//   for (var i=0; i < arr.length; i++){
-//     if (input[i]===0]{
-//       arr[i] = "a";
-//     } else {
-//       arr[i] = "e";
-//     }
-//       return;
-//     }
-//   }
-//
-// }
-
-
-
-
-
-//business
 
 $(document).ready(function() {
   $("form#words").submit(function(event)

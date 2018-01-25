@@ -1,5 +1,5 @@
 body {
-  font-size: 18px;
+  font-size: 22px;
   background-image:
   background-position: left;
   background-repeat: no-repeat;
@@ -9,8 +9,9 @@ body {
 
 
 .container {
+  shape-outside: padding-box;
   background-color:
-  text-align: center;
+  text-align: center left;
   float: center;
   border: 6px solid black;
 }
