@@ -19,18 +19,18 @@ The application intakes a number from a user and outputs a message based on the 
 
 * The program output the message "beep" when a number containing zero is input.
 
-  * Input Example: 610
+  * Input Example: 0
   * Output Example: "beep"
 
 
 * The program output the message "boop" when a number containing one is input.
 
-  * Input Example: 144
+  * Input Example: 1
   * Output Example: "beep"
 
   * The program output the message "I'm sorry Dave, I can't do that!"" when a number divisible by three is entered.
 
-    * Input Example: 36
+    * Input Example: 9
     * Output Example: "beep"
 
 
