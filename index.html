@@ -7,22 +7,18 @@
       <script src="js/jquery-3.3.1.js"></script>
       <script src="js/scripts.js"></script>
   </head>
-  <body>
-    <form class="form">
+    <body class="center">
       <div class="container">
         <h2>Boop</h2>
         <form id="beep-boop">
-      <div id="entered">
-        <label for="number">Enter any number for an a surprise output!</label>
-        <input class="number" type="text">
+      <div class="form-group">
+        <label class="number">Enter any number:</label>
+        <input id="sentence" type="text">
       </div>
         <button type="submit" class="button">Submit!</button>
       </form>
     </form>
-      <div class="result">
-        <p>Your number says:<span class="zero"></span>"Beep".</span></p>
-        <p>Your number says:<span class="one"></span>"Boop".</span></p>
-        <p>Your number says:<span class="divisibleby"></span>"I'm sorry Dave, 'fraid I can't do that!".</span></p>
+      <p>Surprise message: <span class="translation"></span></p>
       </div>
   </body>
 </html>

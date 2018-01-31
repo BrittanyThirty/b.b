@@ -1,10 +1,10 @@
 body {
   font-size: 22px;
-  background-image:
-  background-position: left;
+  background-image:url("numbers.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  text-align: inherit;
 }
 
 
@@ -14,4 +14,10 @@ body {
   text-align: center left;
   float: center;
   border: 6px solid black;
+}
+
+img {
+  height: 200px;
+  width: auto;
+  margin: 40px;
 }
