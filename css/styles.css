@@ -4,6 +4,7 @@
 
 body {
   font-size: 22px;
+  background-color: #AFEEEE;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -17,4 +18,16 @@ body {
   text-align: center left;
   float: center;
   border: 6px solid black;
+}
+
+h1{
+  color: #A9A9A9;
+  font-style: italic;
+  text-align: center;
+}
+
+p{
+  font-family: Georgia;
+  text-align: center;
+  ground-color: #AFEEEE;
 }

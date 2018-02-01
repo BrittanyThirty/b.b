@@ -1,19 +1,19 @@
 //Back
 
-var bb = function(number) {
-  for (var i= 0; i < result.length; i++){
-var num = prompt("message");
-    if(num % 1 === 0 ) {
+var bb = function(num) {
+  for (var i= 0; i < number; i++){
+    if(num[i]==1) {
       console.log("Beep");
-    } else if (num % 1 === 1) {
+    } else if (num % 2 === 0) {
       console.log("Boop");
-    } else if (num % 3 === 0) {
+    } else if ((num & 2) == 0 && (year % 33) != 0) {
       console.log("Sorry Dave. I am araid I cannot do that!");
     } else {
       return result;
     }
   }
 }
+
 
 
 //UI
@@ -25,7 +25,8 @@ $(document).ready(function() {
     var number = parseInt($("input#number").val());
     var result = bb(number);
 
-    $(".number").text(number);
+
+    $(".number").text(result);
      $("#result").show();
   });
 });
