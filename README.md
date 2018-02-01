@@ -39,6 +39,8 @@ The application intakes a number from a user and outputs a message based on the 
   * HTML
   * CSS
   * JavaScript
+  * jQuery
+  * Bootstrap
 
 ## Support and contact details
 
