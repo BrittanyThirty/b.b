@@ -1,24 +1,27 @@
 //Back
 
-var bb = function(num) {
-  for (var i= 0; i < number; i++){
+
+var three = "Sorry Dave. I am araid I cannot do that!";
+var one = "Boop";
+var zero = "Beep";
+
+  for (var i= 0; i < number.length; i++){
     if(num[i]==1) {
-      console.log("Beep");
+      alert("Beep");
     } else if (num % 2 === 0) {
-      console.log("Boop");
-    } else if ((num & 2) == 0 && (year % 33) != 0) {
-      console.log("Sorry Dave. I am araid I cannot do that!");
+      alert("Boop");
+    } else if (num % 3 === 0 && !== )  {
+      alert("Sorry Dave. I am araid I cannot do that!");
     } else {
       return result;
     }
   }
-}
-
-
-
 //UI
-$(document).ready(function() {
 
+
+
+
+$(document).ready(function() {
   $("form#beep-boop").submit(function() {
     event.preventDefault();
 
@@ -26,7 +29,7 @@ $(document).ready(function() {
     var result = bb(number);
 
 
-    $(".number").text(result);
+    $(".number").text(number);
      $("#result").show();
   });
 });
