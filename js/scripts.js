@@ -1,39 +1,35 @@
 //Back
-
-function Message(user) { //constructor function
-  var three = "Sorry Dave. I am araid I cannot do that!";
+function message (userNumber) {
+  var three = "Sorry Dave. I am afraid I cannot do that!";
   var one = "Boop";
   var zero = "Beep";
+}
 
-};
+for(var i = 0; i < airShove.length; i++){
 
+if (airShove % 3 === 0) {
+  $('.number').append(three);
+} else if (airShove.includes(1)) {
+  $('.number').append(one);
+} else if (airShove.includes(0)) {
+  $('.number').append(zero);
+} else {
 
-  for (var i= 0; i < number.length; i++){
-    if(num[i]==1) {
-    } if (num % 1 === 0 && !== 0)  {
-      alert("Beep");
-    } else if (num % 0 === 0 && !== 0)  {
-      alert("Boop");
-    } else if (num % 3 === 0 && !== 0)  {
-      alert("Sorry Dave. I am araid I cannot do that!");
-    } else {
-      return result;
-    }
-  }
+// } return message;
+
+}
+
 //UI
-
-
-
-
 $(document).ready(function() {
-  $("form#beep-boop").submit(function() {
+
+  $("form#beep-boop").submit(function(event) {
     event.preventDefault();
 
-    var parse = parseInt($("input#user").val());
-    var banana = user.split;
-    var shove = [];
+    var userNumber = parseInt($("#user").val());
+    message(userNumber);
+    var airShove = [];
+    var airYarn = userNumber.split('');
 
-    $(".number").text(number);
-     $("#result").show();
+    $(".number").text(message);
+    $("#result").show();
   });
-});
